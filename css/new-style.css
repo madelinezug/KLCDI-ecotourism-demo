@@ -1,0 +1,86 @@
+.banner{
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    background-image: url("../img/slides/5.jpg");
+
+}
+.banner h1,h3{
+	color: #ffffff;
+	font-weight: 500;
+  font-family: montserrat;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns */
+.marketing .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+	font-size: 50px;
+  font-weight: 600;
+  line-height: 2;
+}
+.marketing .col-lg-3 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  font-size: 20px;
+}
+.marketing .col-lg-3 {
+	border-radius: 50%;
+}
+.main-link{
+    color:#2e2e2e;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: -.05rem;
+}
+.featurette-p {
+  line-height: 1.5;
+  letter-spacing: .1rem;
+  font-size: 25px;
+}
+.action-button{
+	background-color: #2139A5;
+	border-color: #2139A5;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.event-image{
+  padding: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 2rem;
+  }
+}
+
+
