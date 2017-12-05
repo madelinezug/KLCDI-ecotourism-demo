@@ -31,18 +31,20 @@
 
     <header class="simple-header for-sticky white">
         <div class="menu">
-                <div class="logo">
+                <!--div class="logo">
                     <a href="index.php" title="">
                         <img src="img/logos/GBPNIHESD.png" width="100" class="pull-left">
                         <span>GBPNIHESD</span>
                     </a>
-                    <!--a href="index.php" title="">
+                    <a href="index.php" title="">
                         <img src="img/logos/icimod.jpeg" width="150" class="pull-left">
                     </a>
                     <a href="index.php" title="">
                         <img src="img/logos/TMI.png" width="200" class="pull-left">
-                    </a-->
-                </div><!-- LOGO -->
+                    </a>
+                </div-->
+
+                <p class="pull-left">Enjoy the Khangchendzonga Landscape</p>
 
                 <span class="menu-toggle"><i class="fa fa-bars"></i></span>
                 <nav>

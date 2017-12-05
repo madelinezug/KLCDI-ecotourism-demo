@@ -73,7 +73,7 @@
 <section>
     <div class="jumbotron jumbotron-fluid banner">
         <div class="container">
-            <h1>About Us</h1>
+            <h1>About</h1>
         </div>
     </div>
 </section>
@@ -87,9 +87,9 @@
           <img class="pull-left featurette-image" src="img/lingdem-images/lingdem_view.jpg" height="400" width="400">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading pull-left">Director's Message</h2>
-            <p class="lead pull-right">This is a message from the director.</p>
-            <p class="lead pull-right">- Director</p>
+          <h2 class="featurette-heading">GBPNIHESD Director's Message</h2>
+            <p class="lead">This is a message from the director.</p>
+            <p class="lead">- Director</p>
         </div>
 
     </div>
@@ -99,7 +99,7 @@
       <div class="row featurette" id="organizations">
         <div class="col-md-7">
             <h2 class="featurette-heading">Organizations <span class="text-muted"></span></h2>
-          <p class="lead">This website is part of a collaborative effort between GB Pant National Institute of Himalayan Environment and Sustainable Development (<a href="">GBPNIHESD</a>), International Center for Integrated Mountain Development (<a href="">ICIMOD</a>), and The Mountain Institute India (<a href="">TMI</a>). Each of these organizations works to conserve mountain environments and improve the lives of people living in mountain communities. Working together with local community members, the organizations have identified the places featured on this website as having potential for ecotourism development. They hope ecotourism in this area will increase awareness of the importance of local biodiversity and conservation, as well as benefit local people’s livelihoods. </p>
+          <p class="lead">This website is part of the Khangchendzonga Landscape Conservation and Developent Initiative (KLCDI). KLCDI-India is a collaborative effort between GB Pant National Institute of Himalayan Environment and Sustainable Development (<a href="">GBPNIHESD</a>), International Center for Integrated Mountain Development (<a href="">ICIMOD</a>), and regional partner NGOs including The Mountain Institute India (<a href="">TMI</a>), Himalayan Nature Adventure Foundation (<a href="">HNAF</a>) and Mutanchi Lom Aal Shezum (<a href="">MLAS</a>). Each of these organizations works to conserve mountain environments and improve the lives of people living in mountain communities. Working together with local community members, the organizations have identified the places featured on this website as having potential for ecotourism development. They hope ecotourism in this area will increase awareness of the importance of local biodiversity and conservation, as well as benefit local people’s livelihoods. </p>
         </div>
         <div class="col-md-5">
           <img class="pull-right featurette-image" src="img/gorkhey-images/gorkhey_agriculture_2" height="400" width="400" >
@@ -113,9 +113,9 @@
           <img class="pull-left featurette-image" src="img/river.jpg" height="400" width="400">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading pull-right">The Khangchendzonga Landscape<span class="text-muted"></span></h2>
-            <p class="lead pull-right">The Khangchendzonga Landscape, covering over 25,000 square kilometers in India, Bhutan, and Nepal, is a part of a global biodiversity hotspot. It supports life for over 7.25 million people and ranges in altitude from 40 meters above sea level in the plains of West Bengal to 8586 meters at the summit of Mount Khangchendzonga in Sikkim. Mean temperature varies from 2°C to 19°C in Darjeeling, 7°C to 27 °C in Gangtok and 11°C to 32°C in Jalpaiguri. </p>
-            <p class="lead pull-right">Snow, ice, and glaciers on 11 high mountain peaks feed mountain streams, lakes, and ponds across the landscape. The varied altitudes contribute to the diversity of flora and fauna. More than 5,500 species of plants and 1,500 species of animals are found in the Khangchendzonga landscape. Land types include needle leaved forest, broad-leaved forest, mixed forest, shrub land, grassland and agricultural land. All of these beautiful natural features are weaved into a strong socio-economic and cultural fabric. With the aim of conserving this rich biodiversity, 16 protected areas are designated within the landscape.</p>
+          <h2 class="featurette-heading">The Khangchendzonga Landscape<span class="text-muted"></span></h2>
+            <p class="lead">The Khangchendzonga Landscape, covering over 25,000 square kilometers in India, Bhutan, and Nepal, is a part of a global biodiversity hotspot. It supports life for over 7.25 million people and ranges in altitude from 40 meters above sea level in the plains of West Bengal to 8586 meters at the summit of Mount Khangchendzonga in Sikkim. Mean temperature varies from 2°C to 19°C in Darjeeling, 7°C to 27 °C in Gangtok and 11°C to 32°C in Jalpaiguri. </p>
+            <p class="lead">Snow, ice, and glaciers on 11 high mountain peaks feed mountain streams, lakes, and ponds across the landscape. The varied altitudes contribute to the diversity of flora and fauna. More than 5,500 species of plants and 1,500 species of animals are found in the Khangchendzonga landscape. Land types include needle leaved forest, broad-leaved forest, mixed forest, shrub land, grassland and agricultural land. All of these beautiful natural features are weaved into a strong socio-economic and cultural fabric. With the aim of conserving this rich biodiversity, 16 protected areas are designated within the landscape.</p>
         </div>
 
     </div>
@@ -123,71 +123,50 @@
     <hr class="featurette-divider">
 
     <div class="row featurette" id="ecotourism">
-            <div class="col-md-6">
-              <h2 class="featurette-heading center-text">Ecotourism</h2>
-              <p class="lead">As an ecotourist it is important to recognize that you will have an impact on the culture and environment you visit. In order to minimize that impact it is helpful to understand the following guidelines:</p>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="horizontal-search v-f-p">
-                                <h1 class="fsearch-title">
-                                    <i class="fa fa-check"></i><span> Do...</span>
-                                </h1>
-                                <div class="panel panel-default">
+        <div class="col-md-6">
+          <h2 class="featurette-heading center-text">Ecotourism</h2>
+          <p class="lead">As an ecotourist it is important to recognize that you will have an impact on the culture and environment you visit. In order to minimize that impact it is helpful to understand the following guidelines:</p>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="horizontal-search v-f-p">
+                            <h1 class="fsearch-title">
+                                <i class="fa fa-check"></i><span> Do...</span>
+                            </h1>
+                            <div class="panel panel-default">
 
-                                    <div id="">
-                                        <ul>
-                                            <li>Carry out all plastic, tin and other non-biodegradable material you carry in.</li>
-                                            <li>Respect sacred sites and local traditions. Remove your shoes before entering temples.</li>
-                                            <li>Ask for permission before taking people’s photographs. It is important to respect people’s privacy.</li>
-                                            <li>Respect mealtimes and customs of your homestay family.</li>
-                                        </ul>
-                                    </div>
+                                <div id="">
+                                    <ul>
+                                        <li>Carry out all plastic, tin and other non-biodegradable material you carry in.</li>
+                                        <li>Respect sacred sites and local traditions. Remove your shoes before entering temples.</li>
+                                        <li>Ask for permission before taking people’s photographs. It is important to respect people’s privacy.</li>
+                                        <li>Respect mealtimes and customs of your homestay family.</li>
+                                    </ul>
                                 </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="horizontal-search v-f-p">
-
-                                <h1 class="fsearch-title">
-                                    <i class="fa fa-close"></i><span> Don't...</span>
-                                </h1>
-
-                                <div class="panel panel-default">
-
-                                    <div id="">
-                                        <ul>
-                                            <li>Pollute streams, rivers, and other water sources with chemical detergents, soaps, or shampoos.</li>
-                                            <li>Harm or remove local plants and animals. Leave the environment better than you found it.</li>
-                                            <li>Leave cigarette butts or start open fires in the forest.</li>
-                                            <li>Contribute to noise pollution. Avoid blasting music in reserve areas.</li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                    </div>
+                            </div>
                 </div>
             </div>
-    </div>
+            <div class="row">
+                <div class="horizontal-search v-f-p">
 
-    <hr class="featurette-divider">
+                            <h1 class="fsearch-title">
+                                <i class="fa fa-close"></i><span> Don't...</span>
+                            </h1>
 
-    <div class="row featurette" id="biodiversity">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Biodiversity<span class="text-muted"></span></h2>
-          <p class="lead"></p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image pull-right" src="img/gorkhey-images/gorkhey_agriculture_4.jpg" width="400" height="400" >
-        </div>
-    </div>
+                            <div class="panel panel-default">
 
-    <hr class="featurette-divider">
+                                <div id="">
+                                    <ul>
+                                        <li>Pollute streams, rivers, and other water sources with chemical detergents, soaps, or shampoos.</li>
+                                        <li>Harm or remove local plants and animals. Leave the environment better than you found it.</li>
+                                        <li>Leave cigarette butts or start open fires in the forest.</li>
+                                        <li>Contribute to noise pollution. Avoid blasting music in reserve areas.</li>
+                                    </ul>
+                                </div>
 
-    <div class="row featurette" id="villages">
-        <div class="col-md-12">
-          <h2 class="featurette-heading">Villages<span class="text-muted"></span></h2>
-          <p class="lead">Learn more about the villages you can visit in the Khangchendzonga Landscape</p>
+                            </div>
+                </div>
+            </div>
         </div>
     </div>
 
