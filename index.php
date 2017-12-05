@@ -31,12 +31,17 @@
 
     <header class="simple-header for-sticky white">
         <div class="menu">
-            <div class="container">
                 <div class="logo">
                     <a href="index.php" title="">
-                        <img src="img/logo.png" width="100" class="pull-left">
+                        <img src="img/logos/GBPNIHESD.png" width="100" class="pull-left">
                         <span>GBPNIHESD</span>
                     </a>
+                    <!--a href="index.php" title="">
+                        <img src="img/logos/icimod.jpeg" width="150" class="pull-left">
+                    </a>
+                    <a href="index.php" title="">
+                        <img src="img/logos/TMI.png" width="200" class="pull-left">
+                    </a-->
                 </div><!-- LOGO -->
 
                 <span class="menu-toggle"><i class="fa fa-bars"></i></span>
@@ -45,23 +50,23 @@
 
                     <ul>
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="about.php">ABOUT</a></li>
                         <li class="menu-item-has-children">
-                            <a href="javascript:void(0);" title="">TOURISM PACKAGES</a>
+                            <a href="about.php" title="">ABOUT</a>
                             <ul>
-                                <li><a href="inner-page.php">Ribdi and Bhareng</a></li>
-                                <li><a href="inner-page.php">Gorkhey and Samanden</a></li>
-                                <li><a href="inner-page.php">Lingthem-Lingdem</a></li>
-                                <li><a href="inner-page.php">Bandapni</a></li>
+                                <li><a href="about.php#organizations">Organizations</a></li>
+                                <li><a href="about.php#KL">Khangchendzonga</a></li>
+                                <li><a href="about.php#ecotourism">Ecotourism</a></li>
+                                <li><a href="about.php#biodiversity">Biodiversity</a></li>
+                                <li><a href="about.php#villages">Villages</a></li>
+                                <li><a href="about.php#faq">FAQ</a></li>
                             </ul>
                         </li>
-                        <li><a href="javascript:void(0);">HOMESTAYS</a></li>
-                        <li><a href="javascript:void(0);" title="">MAPS</a></li>
+                        <li><a href="places.php">PLACES</a></li>
+                        <li><a href="homestays.php">HOMESTAYS</a></li>
+                        <li><a href="maps.php" title="">MAPS</a></li>
 
                     </ul>
                 </nav>
-
-            </div>
         </div>
     </header>
 
@@ -82,192 +87,48 @@
         <div class="col-lg-3">
           <img class="rounded-circle" src="img/map.jpg" width="200" height="200">
           <h2><a class="main-link" href="packages.php" >TREK</a></h2>
-          <p>On some of the best routes in India and across the Himalayas.</p>
+          <p class="highlights-p">On some of the best routes in India and across the Himalayas.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="rounded-circle" src="img/stay.jpg" width="200" height="200">
+          <img class="rounded-circle" src="img/gorkhey-images/gorkhey_homestay2.jpg" width="200" height="200">
           <h2><a class="main-link" href="homestays.php" >STAY</a></h2>
-          <p>In cozy homestays with home-cooked, organic meals.</p>
+          <p class="highlights-p">In cozy homestays with home-cooked, organic meals.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-          <img class="rounded-circle" src="img/trek.jpg" width="200" height="200">
+          <img class="rounded-circle" src="img/lingdem-images/flowers_white.jpg" width="200" height="200">
           <h2><a class="main-link" href="packages.php" >EXPLORE</a></h2>
-          <p>The incredibly diverse local flora, fauna, and culture.</p>
+          <p class="highlights-p">The incredibly diverse local flora, fauna, and culture.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
-            <img class="rounded-circle" src="img/view3.jpg" width="200" height="200">
+            <img class="rounded-circle" src="img/view2.jpg" width="200" height="200">
             <h2><a class="main-link" href="packages.php" >RELAX</a></h2>
-            <p>In the fresh mountain air with beautiful panoramic views.</p>
+            <p class="highlights-p">In the fresh mountain air with beautiful panoramic views.</p>
         </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
 
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Ecotourism is different. <span class="text-muted"></span></h2>
-          <p class="lead featurette-p">As a tourist, researcher, or visitor to the Kangchenjunga Landscape you will have the opportunity to enjoy incredible biodiversity, natural beauty, and the warm hospitality of your local homestay hosts. Your visit will also have an effect on the local environment, culture, and livelihoods. As a responsible guest of this community it is important to understand the following guidelines for a respectful and enjoyable stay.</p>
-          <p><a class="btn btn-primary action-button" href="packages.php" role="button">Book Now &raquo;</a></p>
-        </div>
-        <div class="col-md-5">
-            <div class="horizontal-search v-f-p">
-                        <h1 class="fsearch-title">
-                            <i class="fa fa-check"></i><span> Do...</span>
-                        </h1>
-                        <div class="panel panel-default">
-
-                            <div id="">
-                                <ul>
-                                    <li>Carry out all plastic, tin and other non-biodegradable material you carry in.</li>
-                                    <li>Respect sacred sites and local traditions. Remove your shoes before entering temples.</li>
-                                    <li>Ask for permission before taking people’s photographs. It is important to respect people’s privacy.</li>
-                                    <li>Respect mealtimes and customs of your homestay family.</li>
-                                </ul>
-                            </div>
-                        </div>
+    <div class="row featurette">
+        <div class="row">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Ecotourism is different. <span class="text-muted"></span></h2>
+              <p class="lead featurette-p">As a tourist, researcher, or visitor to the Kangchenjunga Landscape you will have the opportunity to enjoy incredible biodiversity, natural beauty, and the warm hospitality of your local homestay hosts. Your visit will also have an effect on the local environment, culture, and livelihoods. As a responsible guest of this community it is important to understand some "Dos and Don'ts" for a respectful and enjoyable stay.</p>
+              <p><a class="btn btn-primary action-button" href="packages.php" role="button">Learn More &raquo;</a></p>
             </div>
-            <div class="horizontal-search v-f-p">
-
-                        <h1 class="fsearch-title">
-                            <i class="fa fa-close"></i><span> Don't...</span>
-                        </h1>
-
-                        <div class="panel panel-default">
-
-                            <div id="">
-                                <ul>
-                                    <li>Pollute streams, rivers, and other water sources with chemical detergents, soaps, or shampoos.</li>
-                                    <li>Harm or remove local plants and animals. Leave the environment better than you found it.</li>
-                                    <li>Leave cigarette butts or start open fires in the forest.</li>
-                                    <li>Contribute to noise pollution. Avoid blasting music in reserve areas.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-            </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-
-        <div class="col-md-7">
-            <div class="row">
-                <div class="col-md-3 event-image">
-                    <img src="img/house.jpg" width="150" height="150">
-                </div>
-                <div class="col-md-9">
-                    <h4 class="event-header">Rhododendron Festival</h4>
-                    <p>1.5.17 - 10.5.17</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 event-image">
-                    <img src="img/flags.jpg" width="150" height="150">
-                </div>
-                <div class="col-md-9">
-                    <h4 class="event-header">Cultural Festival</h4>
-                    <p>3.7.17 - 9.7.17</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 event-image">
-                    <img src="img/river.jpg" width="150" height="150">
-                </div>
-                <div class="col-md-9">
-                    <h4 class="event-header">Elephant migration</h4>
-                    <p>2.9.17 - 10.9.17</p>
-                </div>
+            <div class="col-md-5">
+                <img src="img/view3.jpg" width="400" height="400" class="featurette-img pull-right">
             </div>
         </div>
 
-        <div class="col-md-5 text-right">
-          <h2 class="featurette-heading">Upcoming Events. <span class="text-muted"></span></h2>
-          <p class="featurette-p">Plan your trip around the upcoming events and festivals in the area.</p>
-          <a class="btn btn-primary action-button" href="packages.php" role="button">Learn More &raquo;</a>
-        </div>
-      </div>
 
-      <hr class="featurette-divider">
+    </div>
 
-      <!-- /END THE FEATURETTES -->
+    <hr class="featurette-divider">
 
-
-        <div class="featurette">
-            <div class="heading4">
-                <h2>POPULAR PACKAGES</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="vehiculs-sec">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/view2" alt=""/>
-                                        <span class="spn-status"> Ribdi & Bhareng </span>
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Take in the beauty of Singalila national <br>
-                                            park with a local guide.<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Singalila National Park Adventure</a></h3>
-      
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/cow" alt=""/>
-                                        <span class="spn-status"> Gorkhey & Samanden </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Discover local plants and animals <br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Biodiversity Tour</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/sunset" alt=""/>
-                                        <span class="spn-status"> Lingthem Lingdem </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            10-day trek with views of <br>
-                                            snowy peaks<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Himalayan Trek</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <hr class="featurette-divider">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="featurette">
+            <div class="featurette">
             <div class="heading4">
                 <h2>POPULAR HOMESTAYS</h2>
             </div>
@@ -278,8 +139,8 @@
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/slides/1.jpg" alt=""/>
-                                        <span class="spn-status"> Ribdi & Bhareng </span>
+                                        <img src="img/gorkhey-images/gorkhey_homestay1.jpg" alt=""/>
+                                        <span class="spn-status"> Gorkhey & Samanden </span>
 
                                         <a class="proeprty-sh-more" href="inner-page.php">
                                             <i class="fa fa-angle-right"> </i></a>
@@ -292,18 +153,18 @@
                                             Phone number
                                         </p>
                                     </div>
-                                    <h3><a href="inner-page.php" title="">Ribdi & Bhareng</a></h3>
+                                    <h3><a href="inner-page.php" title="">Gorkhey & Samanden</a></h3>
                                     <span class="rate-it">
                                             <span>
-                                            <i class="fa fa-rupee"> 1200 per night</i>
+                                            <i class="fa fa-rupee"> 300 per night</i>
                                             </span>
-                                        </span>
+                                    </span>
                                 </div><!-- prop Box -->
                             </div>
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/slides/1.jpg" alt=""/>
+                                        <img src="img/gorkhey-images/gorkhey_homestay2.jpg" alt=""/>
                                         <span class="spn-status"> Gorkhey & Samanden </span>
 
                                         <a class="proeprty-sh-more" href="inner-page.php">
@@ -328,8 +189,8 @@
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/slides/1.jpg" alt=""/>
-                                        <span class="spn-status"> Lingthem Lingdem </span>
+                                        <img src="img/gorkhey-images/gorkhey_homestay3.jpg" alt=""/>
+                                        <span class="spn-status"> Gorkhey & Samanden </span>
 
                                         <a class="proeprty-sh-more" href="inner-page.php">
                                             <i class="fa fa-angle-right"> </i></a>
@@ -342,7 +203,7 @@
                                             Phone number
                                         </p>
                                     </div>
-                                    <h3><a href="inner-page.php" title="">Lingthem-Lingdem</a></h3>
+                                    <h3><a href="inner-page.php" title="">Gorkhey & Samanden</a></h3>
                                     <span class="rate-it">
                                             <span>
                                             <i class="fa fa-rupee"> 500 per night</i>
@@ -357,81 +218,68 @@
             </div>
         </div>
 
-</div>
+              <hr class="featurette-divider">
 
+    <div class="row featurette">
 
-    <section class=" padding-50 bg-info">
-        <div class="container">
+        <div class="col-md-7">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="heading4">
-                        <h2>Tourist Feedback</h2>
-                    </div>
-                    <div class="agents-carousal-sec">
-                        <ul class="carousel">
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 1</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 2</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 3</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 4</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 5</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 6</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 7</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="agent-content">
-                                    <h3>Tourist Name 8</h3>
-                                    <p><strong>Feedback</strong>Lorem ipsum dolor sit amet, consectetur <br> sed do
-                                        eiusmod tempor incidid</p>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
+                <div class="col-md-3 event-image">
+                    <img src="img/house.jpg" width="150" height="150">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="event-header">Rhododendron Festival</h4>
+                    <p class="blue-text">Mar. 1 - Mar. 5  |  Barsey-Singalila</p>
+                    <p>Enjoy stunning views of mountainsides turned pink by hundreds of Rhododendrons in bloom. Enjoy Rhododendron wine and Rhododendron festivities.</p>
+                </div>
+            </div>
+            <hr >
+            <div class="row">
+                <div class="col-md-3 event-image">
+                    <img src="img/lingdem-images/soccer_pitch.jpg" width="150" height="150">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="event-header">Cultural Festival</h4>
+                    <p class="blue-text">Dec. 1 - Dec. 3  |  Dzongu</p>
+                    <p>There is a Lingdem Hot Spring Nature and Culture Tourism Festival every year! Come to enjoy sporting events, traditional Lepcha and Nepali dances, and fresh local vegetables.</p>
+                </div>
+            </div>
+            <hr >
+            <div class="row">
+                <div class="col-md-3 event-image">
+                    <img src="img/river.jpg" width="150" height="150">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="event-header">Elephant migration</h4>
+                    <p class="blue-text">Sep. 10 - Sep. 20  |  Bandapani</p>
+                    <p>Discover the beauty of the majestic elephant. Increase your chances of spotting an elephant in the wild during this annual migration.</p>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="col-md-5 text-right">
+          <h2 class="featurette-heading">Upcoming Events <span class="text-muted"></span></h2>
+          <p class="featurette-p">Plan your trip around these upcoming events and festivals.</p>
+          <a class="btn btn-primary action-button" href="packages.php" role="button">Learn More &raquo;</a>
+        </div>
+    </div>
+
+        <hr class="featurette-divider">
+        <div class="featurette">
+            <div class="heading4">
+                <h2>Our Visitors Say...</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+
+</div>
 
     <footer class="light-footer">
         <section class="top-line">

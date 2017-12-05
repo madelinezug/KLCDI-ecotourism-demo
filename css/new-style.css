@@ -1,15 +1,24 @@
+/* Banner Design */
 .banner{
 	background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    background-image: url("../img/slides/5.jpg");
-
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  background-image: url("../img/slides/5.jpg");
+}
+.banner-2{
+  background-image: url("../img/gorkhey-images/gorkhey_agriculture_2_wide.jpg");
 }
 .banner h1,h3{
 	color: #ffffff;
 	font-weight: 500;
   font-family: montserrat;
+}
+.heading-sep {
+    background: #c9c9c2;
+    width: 110px;
+    height: 5px;
+    margin: 30px 0px;
 }
 
 /* MARKETING CONTENT
@@ -21,17 +30,17 @@
   text-align: center;
 }
 .marketing h2 {
-	font-size: 50px;
-  font-weight: 600;
-  line-height: 2;
+	font-size: 40px;
+  font-weight: 550;
+  line-height: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.marketing .col-lg-3 p {
+.highlights-p {
   margin-right: .75rem;
   margin-left: .75rem;
-  font-size: 20px;
-}
-.marketing .col-lg-3 {
-	border-radius: 50%;
+  font-size: 15px;
+  line-height: 1.5;
 }
 .main-link{
     color:#2e2e2e;
@@ -54,16 +63,29 @@
 .featurette-p {
   line-height: 1.5;
   letter-spacing: .1rem;
-  font-size: 25px;
+  font-size: 15px;
+}
+.featurette-image{
+  margin-top: 20px;
+}
+.faq-question{
+  color: #2139A5;
 }
 .action-button{
 	background-color: #2139A5;
 	border-color: #2139A5;
-	font-size: 25px;
+	font-size: 20px;
 	margin-top: 20px;
 }
 .event-image{
   padding: 10px;
+}
+.guidelines{
+  padding-top: 40px;
+}
+
+.blue-text{
+  color: #2139A5;
 }
 
 

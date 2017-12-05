@@ -31,12 +31,17 @@
 
     <header class="simple-header for-sticky white">
         <div class="menu">
-            <div class="container">
                 <div class="logo">
                     <a href="index.php" title="">
-                        <img src="img/logo.png" width="100" class="pull-left">
+                        <img src="img/logos/GBPNIHESD.png" width="100" class="pull-left">
                         <span>GBPNIHESD</span>
                     </a>
+                    <!--a href="index.php" title="">
+                        <img src="img/logos/icimod.jpeg" width="150" class="pull-left">
+                    </a>
+                    <a href="index.php" title="">
+                        <img src="img/logos/TMI.png" width="200" class="pull-left">
+                    </a-->
                 </div><!-- LOGO -->
 
                 <span class="menu-toggle"><i class="fa fa-bars"></i></span>
@@ -45,23 +50,23 @@
 
                     <ul>
                         <li><a href="index.php">HOME</a></li>
-                        <li><a href="javascript:void(0);">ABOUT</a></li>
                         <li class="menu-item-has-children">
-                            <a href="javascript:void(0);" title="">TOURISM PACKAGES</a>
+                            <a href="about.php" title="">ABOUT</a>
                             <ul>
-                                <li><a href="inner-page.php">Ribdi and Bhareng</a></li>
-                                <li><a href="inner-page.php">Gorkhey and Samanden</a></li>
-                                <li><a href="inner-page.php">Lingthem-Lingdem</a></li>
-                                <li><a href="inner-page.php">Bandapni</a></li>
+                                <li><a href="about.php#organizations">Organizations</a></li>
+                                <li><a href="about.php#KL">Khangchendzonga</a></li>
+                                <li><a href="about.php#ecotourism">Ecotourism</a></li>
+                                <li><a href="about.php#biodiversity">Biodiversity</a></li>
+                                <li><a href="about.php#villages">Villages</a></li>
+                                <li><a href="about.php#faq">FAQ</a></li>
                             </ul>
                         </li>
-                        <li><a href="javascript:void(0);">HOMESTAYS</a></li>
-                        <li><a href="javascript:void(0);" title="">MAPS</a></li>
+                        <li><a href="places.php">PLACES</a></li>
+                        <li><a href="homestays.php">HOMESTAYS</a></li>
+                        <li><a href="maps.php" title="">MAPS</a></li>
 
                     </ul>
                 </nav>
-
-            </div>
         </div>
     </header>
 
@@ -77,41 +82,132 @@
 <div class="container marketing">
       <!-- START THE FEATURETTES -->
 
-      <div class="row featurette">
+      <div class="row featurette" id="KL">
+        <div class="col-md-5">
+          <img class="pull-left featurette-image" src="img/lingdem-images/lingdem_view.jpg" height="400" width="400">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading pull-left">Director's Message</h2>
+            <p class="lead pull-right">This is a message from the director.</p>
+            <p class="lead pull-right">- Director</p>
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+      <div class="row featurette" id="organizations">
         <div class="col-md-7">
             <h2 class="featurette-heading">Organizations <span class="text-muted"></span></h2>
           <p class="lead">This website is part of a collaborative effort between GB Pant National Institute of Himalayan Environment and Sustainable Development (<a href="">GBPNIHESD</a>), International Center for Integrated Mountain Development (<a href="">ICIMOD</a>), and The Mountain Institute India (<a href="">TMI</a>). Each of these organizations works to conserve mountain environments and improve the lives of people living in mountain communities. Working together with local community members, the organizations have identified the places featured on this website as having potential for ecotourism development. They hope ecotourism in this area will increase awareness of the importance of local biodiversity and conservation, as well as benefit local people’s livelihoods. </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="img/view3.jpg" >
+          <img class="pull-right featurette-image" src="img/gorkhey-images/gorkhey_agriculture_2" height="400" width="400" >
         </div>
       </div>
 
-      <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-      <div class="row featurette">
+    <div class="row featurette" id="KL">
+        <div class="col-md-5">
+          <img class="pull-left featurette-image" src="img/river.jpg" height="400" width="400">
+        </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">The Khangchendzonga Landscape<span class="text-muted"></span></h2>
-            <p class="lead">The Khangchendzonga Landscape, covering over 25,000 square kilometers in India, Bhutan, and Nepal, is a part of a global biodiversity hotspot. It supports life for over 7.25 million people and ranges in altitude from 40 meters above sea level in the plains of West Bengal to 8586 meters at the summit of Mount Khangchendzonga in Sikkim. Mean temperature varies from 2°C to 19°C in Darjeeling, 7°C to 27 °C in Gangtok and 11°C to 32°C in Jalpaiguri. </p>
-            <p class="lead">Snow, ice, and glaciers on 11 high mountain peaks feed mountain streams, lakes, and ponds across the landscape. The varied altitudes contribute to the diversity of flora and fauna. More than 5,500 species of plants and 1,500 species of animals are found in the Khangchendzonga landscape. Land types include needle leaved forest, broad-leaved forest, mixed forest, shrub land, grassland and agricultural land. All of these beautiful natural features are weaved into a strong socio-economic and cultural fabric. With the aim of conserving this rich biodiversity, 16 protected areas are designated within the landscape.</p>
+          <h2 class="featurette-heading pull-right">The Khangchendzonga Landscape<span class="text-muted"></span></h2>
+            <p class="lead pull-right">The Khangchendzonga Landscape, covering over 25,000 square kilometers in India, Bhutan, and Nepal, is a part of a global biodiversity hotspot. It supports life for over 7.25 million people and ranges in altitude from 40 meters above sea level in the plains of West Bengal to 8586 meters at the summit of Mount Khangchendzonga in Sikkim. Mean temperature varies from 2°C to 19°C in Darjeeling, 7°C to 27 °C in Gangtok and 11°C to 32°C in Jalpaiguri. </p>
+            <p class="lead pull-right">Snow, ice, and glaciers on 11 high mountain peaks feed mountain streams, lakes, and ponds across the landscape. The varied altitudes contribute to the diversity of flora and fauna. More than 5,500 species of plants and 1,500 species of animals are found in the Khangchendzonga landscape. Land types include needle leaved forest, broad-leaved forest, mixed forest, shrub land, grassland and agricultural land. All of these beautiful natural features are weaved into a strong socio-economic and cultural fabric. With the aim of conserving this rich biodiversity, 16 protected areas are designated within the landscape.</p>
+        </div>
+
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="ecotourism">
+            <div class="col-md-6">
+              <h2 class="featurette-heading center-text">Ecotourism</h2>
+              <p class="lead">As an ecotourist it is important to recognize that you will have an impact on the culture and environment you visit. In order to minimize that impact it is helpful to understand the following guidelines:</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="horizontal-search v-f-p">
+                                <h1 class="fsearch-title">
+                                    <i class="fa fa-check"></i><span> Do...</span>
+                                </h1>
+                                <div class="panel panel-default">
+
+                                    <div id="">
+                                        <ul>
+                                            <li>Carry out all plastic, tin and other non-biodegradable material you carry in.</li>
+                                            <li>Respect sacred sites and local traditions. Remove your shoes before entering temples.</li>
+                                            <li>Ask for permission before taking people’s photographs. It is important to respect people’s privacy.</li>
+                                            <li>Respect mealtimes and customs of your homestay family.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="horizontal-search v-f-p">
+
+                                <h1 class="fsearch-title">
+                                    <i class="fa fa-close"></i><span> Don't...</span>
+                                </h1>
+
+                                <div class="panel panel-default">
+
+                                    <div id="">
+                                        <ul>
+                                            <li>Pollute streams, rivers, and other water sources with chemical detergents, soaps, or shampoos.</li>
+                                            <li>Harm or remove local plants and animals. Leave the environment better than you found it.</li>
+                                            <li>Leave cigarette butts or start open fires in the forest.</li>
+                                            <li>Contribute to noise pollution. Avoid blasting music in reserve areas.</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="biodiversity">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Biodiversity<span class="text-muted"></span></h2>
+          <p class="lead"></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="img/river.jpg" height="400" width="400">
+          <img class="featurette-image pull-right" src="img/gorkhey-images/gorkhey_agriculture_4.jpg" width="400" height="400" >
         </div>
-      </div>
+    </div>
 
-      <hr class="featurette-divider">
+    <hr class="featurette-divider">
 
-            <div class="row featurette">
-        <div class="col-md-7">
+    <div class="row featurette" id="villages">
+        <div class="col-md-12">
           <h2 class="featurette-heading">Villages<span class="text-muted"></span></h2>
-            <p class="lead ">The Khangchendzonga Landscape, covering over 25,000 square kilometers in India, Bhutan, and Nepal, is a part of a global biodiversity hotspot. It supports life for over 7.25 million people and ranges in altitude from 40 meters above sea level in the plains of West Bengal to 8586 meters at the summit of Mount Khangchendzonga in Sikkim. Mean temperature varies from 2°C to 19°C in Darjeeling, 7°C to 27 °C in Gangtok and 11°C to 32°C in Jalpaiguri. </p>
-            <p class="lead">Snow, ice, and glaciers on 11 high mountain peaks feed mountain streams, lakes, and ponds across the landscape. The varied altitudes contribute to the diversity of flora and fauna. More than 5,500 species of plants and 1,500 species of animals are found in the Khangchendzonga landscape. Land types include needle leaved forest, broad-leaved forest, mixed forest, shrub land, grassland and agricultural land. All of these beautiful natural features are weaved into a strong socio-economic and cultural fabric. With the aim of conserving this rich biodiversity, 16 protected areas are designated within the landscape.</p>
+          <p class="lead">Learn more about the villages you can visit in the Khangchendzonga Landscape</p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="FAQ">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">FAQ<span class="text-muted"></span></h2>
+          <p class="lead">Here you will find frequently asked questions about visiting the Khangchendzonga Landscape</p>
+          <p class="faq-question">Q: As a foreigner do I need a permit to enter Sikkim? </p>
+          <p class="faq-answer">A: Yes, you need an inner-line permit to enter the state of Sikkim. This permit can be obtained at the permitting office at the border of the state and requires that you bring your passport including your visa, a passport photocopy including your visa, and a passport size photo.</p>
+          <p class="faq-question">Q: Is it true that the Khangchendzonga landscape is part of a global biodiversity hotspot? </p>
+          <p class="faq-answer">A: Yes! And you can learn more about the diverse types of flora and fauna in different locations by checking out the pages for each village.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="img/view.jpg" >
+          <img class="featurette-image pull-right" src="img/gorkhey-images/gorkhey_horse_drinking_2.jpg" width="400" height="400" >
         </div>
-      </div>
+    </div>
+
+    <hr class="featurette-divider">
 </div>
       <!-- /END THE FEATURETTES -->
 
