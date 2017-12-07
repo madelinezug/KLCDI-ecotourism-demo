@@ -87,6 +87,18 @@
 .blue-text{
   color: #2139A5;
 }
+.fixed-padding {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+/* PLACES */
+.banner-places{
+  min-height: 400px;
+  background-image: url("../img/gorkhey-images/gorkhey_view_wide_2.jpg");
+  width: 100%;
+}
+
 
 
 /* RESPONSIVE CSS

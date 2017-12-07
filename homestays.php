@@ -31,18 +31,13 @@
 
     <header class="simple-header for-sticky white">
         <div class="menu">
-                <div class="logo">
-                    <a href="index.php" title="">
-                        <img src="img/logos/GBPNIHESD.png" width="100" class="pull-left">
-                        <span>GBPNIHESD</span>
+                <div class="logo fixed-padding">
+                    <a href="index.php" title="" >
+                        <img src="img/logos/GBPNIHESD.png" width="80" class="pull-left">
+                        <span> Khangchendzonga Landscape Ecotourism</span>
                     </a>
-                    <!--a href="index.php" title="">
-                        <img src="img/logos/icimod.jpeg" width="150" class="pull-left">
-                    </a>
-                    <a href="index.php" title="">
-                        <img src="img/logos/TMI.png" width="200" class="pull-left">
-                    </a-->
-                </div><!-- LOGO -->
+
+                </div>
 
                 <span class="menu-toggle"><i class="fa fa-bars"></i></span>
                 <nav>
@@ -53,15 +48,21 @@
                         <li class="menu-item-has-children">
                             <a href="about.php" title="">ABOUT</a>
                             <ul>
+                                <li><a href="about.php#directors-message">Director's Message</a></li>
                                 <li><a href="about.php#organizations">Organizations</a></li>
                                 <li><a href="about.php#KL">Khangchendzonga</a></li>
                                 <li><a href="about.php#ecotourism">Ecotourism</a></li>
-                                <li><a href="about.php#biodiversity">Biodiversity</a></li>
-                                <li><a href="about.php#villages">Villages</a></li>
                                 <li><a href="about.php#faq">FAQ</a></li>
                             </ul>
                         </li>
-                        <li><a href="places.php">PLACES</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="about.php" title="">PLACES</a>
+                            <ul>
+                                <li><a href="places.php#b-s">Barsey-Singalila</a></li>
+                                <li><a href="places.php#dzongu">Dzongu</a></li>
+                                <li><a href="places.php#bandapani">Bandapani</a></li>
+                            </ul>
+                        </li>
                         <li><a href="homestays.php">HOMESTAYS</a></li>
                         <li><a href="maps.php" title="">MAPS</a></li>
 
@@ -83,7 +84,7 @@
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">The Homestay Experience <span class="text-muted"></span></h2>
-            <p class="lead">A homestay is not a hotel. You will be welcomed into a family's home with incredible hospitality. You will get a better look at local life than you would in typical tourist accomodations. You will eat fresh, local, organic food and drink plenty of chai. You will be immersed in local culture and tradition. You'll wish you never had to leave!</p>
+            <p class="lead">A homestay is not a hotel. You will be welcomed into a family's home with incredible hospitality. You will get a better look at local life than you would in typical tourist accommodations. You will eat fresh, local, organic food and drink plenty of chai. You will be immersed in local culture and tradition. You'll wish you never had to leave!</p>
             <p class="lead">Online booking is coming soon. This website aims to give you a sense of what's available. If you see a homestay you'd love to visit, call directly or contact a travel agent. It is also common to book in person through a porter while on a trek.</p>
         </div>
         <div class="col-md-5">
@@ -178,7 +179,7 @@
                     </div>
                 </div>
             </div>
-                        <div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="vehiculs-sec">
                         <div class="row">
@@ -262,7 +263,7 @@
                     </div>
                 </div>
             </div>
-        <div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="vehiculs-sec">
                         <div class="row">
@@ -390,7 +391,7 @@
                             <ul>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Home</a>
                                 </li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> About</a></li>
+                                <li><a href="about.php" title=""><i class="fa fa-angle-right"></i> About</a></li>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i>
                                     Tourism Packages</a></li>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i>
@@ -404,31 +405,29 @@
                     <div class="col-md-3 column">
                         <div class="links_widget widget">
                             <div class="heading1">
-                                <h2><span>Famous</span> Places</h2>
+                                <h2><span>KLCDI</span> Sites</h2>
                             </div><!-- heading -->
                             <ul>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Gurudongmar
-                                    Lake </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Silk Route
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Barsey-Singalila</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Bandapani
                                 </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Sandruptse
-                                    Namechi </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Nathula
-                                </a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Dzongu</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 column">
-                        <div class="subscribe_widget widget">
+                        <div class="links_widget widget">
                             <div class="heading1">
-                                <h2><span>Subscribe</span> Now</h2>
+                                <h2><span>Organization</span> Info</h2>
                             </div><!-- heading -->
-                            <p>Get our news letter</p>
-                            <form>
-                                <label><input type="text" placeholder="TYPE YOUR EMAIL"/></label>
-                                <button type="submit" class="flat-btn"><i class="ti ti-email"></i></button>
-                            </form>
+                            <ul>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> GBPNIHESD</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> ICIMOD
+                                </a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> TMI India</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> MLAS</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> HNAF</a></li>
+                            </ul>
                         </div>
                     </div>
 
@@ -440,8 +439,10 @@
                 <span>Copyright All Right Reserved 2017 <a href="#" title="">Website is developed under KLCDI-India programme</a></span>
                 <ul>
                     <li><a title="" href="javascript:void(0);">GBPNIHESD Logo </a></li>
-                    <li><a title="" href="javascript:void(0);">TMI-India Logo </a></li>
                     <li><a title="" href="javascript:void(0);">ICIMOD, Nepal Logo</a></li>
+                    <li><a title="" href="javascript:void(0);">TMI-India Logo </a></li>
+                    <li><a title="" href="javascript:void(0);">MLAS Logo </a></li>
+                    <li><a title="" href="javascript:void(0);">HNAF Logo </a></li>
                 </ul>
             </div>
         </div>

@@ -31,18 +31,13 @@
 
     <header class="simple-header for-sticky white">
         <div class="menu">
-                <div class="logo">
-                    <a href="index.php" title="">
-                        <img src="img/logos/GBPNIHESD.png" width="100" class="pull-left">
-                        <span>GBPNIHESD</span>
+                <div class="logo fixed-padding">
+                    <a href="index.php" title="" >
+                        <img src="img/logos/GBPNIHESD.png" width="80" class="pull-left">
+                        <span> Khangchendzonga Landscape Ecotourism</span>
                     </a>
-                    <!--a href="index.php" title="">
-                        <img src="img/logos/icimod.jpeg" width="150" class="pull-left">
-                    </a>
-                    <a href="index.php" title="">
-                        <img src="img/logos/TMI.png" width="200" class="pull-left">
-                    </a-->
-                </div><!-- LOGO -->
+
+                </div>
 
                 <span class="menu-toggle"><i class="fa fa-bars"></i></span>
                 <nav>
@@ -53,15 +48,21 @@
                         <li class="menu-item-has-children">
                             <a href="about.php" title="">ABOUT</a>
                             <ul>
+                                <li><a href="about.php#directors-message">Director's Message</a></li>
                                 <li><a href="about.php#organizations">Organizations</a></li>
                                 <li><a href="about.php#KL">Khangchendzonga</a></li>
                                 <li><a href="about.php#ecotourism">Ecotourism</a></li>
-                                <li><a href="about.php#biodiversity">Biodiversity</a></li>
-                                <li><a href="about.php#villages">Villages</a></li>
                                 <li><a href="about.php#faq">FAQ</a></li>
                             </ul>
                         </li>
-                        <li><a href="packages.php">TOURISM PACKAGES</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="about.php" title="">PLACES</a>
+                            <ul>
+                                <li><a href="places.php#b-s">Barsey-Singalila</a></li>
+                                <li><a href="places.php#dzongu">Dzongu</a></li>
+                                <li><a href="places.php#bandapani">Bandapani</a></li>
+                            </ul>
+                        </li>
                         <li><a href="homestays.php">HOMESTAYS</a></li>
                         <li><a href="maps.php" title="">MAPS</a></li>
 
@@ -73,203 +74,80 @@
 <section>
     <div class="jumbotron jumbotron-fluid banner">
         <div class="container">
-            <h1>Tourism Packages</h1>
+            <h1>Places</h1>
         </div>
     </div>
 </section>
 
 <div class="container marketing">
 
+
         <div class="featurette">
-                        <div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="vehiculs-sec">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/view2" alt=""/>
-                                        <span class="spn-status"> Ribdi & Bhareng </span>
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
+                                        <img src="img/gorkhey-images/gorkhey_view_square_1.jpg" alt=""/>
+                                        <span class="spn-status"> Gorkhey</span>
                                         <p class="car-info-smal">
-                                            Take in the beauty of Singalila national <br>
-                                            park with a local guide.<br>
-                                            Contact<br>
-                                            9801-0761
+                                            The view of homes and terraced agriculture in Gorkhey village from the path from Ribdi to Gorkhey.
                                         </p>
                                     </div>
-                                    <h3><a href="inner-page.php" title="">Singalila National Park Adventure</a></h3>
-      
+                                    <h3>Barsey-Singalila</h3>
                                 </div><!-- prop Box -->
+                                <p><span>Location: </span>The Barsey-Singalila site covers parts of West Sikkim and the Darjeeling district of West Bengal, bordering Nepal. It includes parts of Singalila National Park and Barsey Rhododendron Sanctuary. </p>
+                                <p><span style="color:black">Climate: </span>The Barsey-Singalila site ranges from 1800m to 3685m elevation and includes subtropical to sub-alpine climate zones.</p>
+                                <p><span class="text-dark">Villages: </span>Villages in this site include Khopi-Ramitey, lower Ribdi, upper Ribdi, lower Bhareng and upper Bhareng (West Sikkim) and Gorkhey, Samanden and Raman (Darjeeling district, West Bengal).</p>
+                                <p><span class="text-dark">Culture: </span>Culture: The Barsey-Singalila site has a unique mix of Nepali and indigenous (Lepcha) culture. The primary language spoken across the site is Nepali. </p>
+                                <p><span class="text-dark">Highlights: </span>The Rhododendron festival in this region is not to be missed. The hills in the Barsey Rhododendron Sanctuary bloom an incredible pink in the spring and tourists travel from around India and internationally to enjoy the wonderful views and smells. Bird watching is also popular in this area as there are many species to observe in this peaceful setting. Gorkhey village is a great place to stay overnight during a trek. </p>
+
                             </div>
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/cow" alt=""/>
-                                        <span class="spn-status"> Gorkhey & Samanden </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
+                                        <img src="img/lingdem-images/lingdem_view.jpg" alt=""/>
+                                        <span class="spn-status"> Lingdem </span>
                                         <p class="car-info-smal">
-                                            Discover local plants and animals <br>
-                                            Contact<br>
-                                            9801-0761
+                                            The view from a homestay in Lingdem village in Dzongu at sunrise.
                                         </p>
                                     </div>
-                                    <h3><a href="inner-page.php" title="">Biodiversity Tour</a></h3>
+                                    <h3>Dzongu</h3>
                                 </div><!-- prop Box -->
+                                <p><span class="font-weight-bold">Location: </span>Dzongu is in North Sikkim and is a Lepcha (indigenous) community reserve and transition area to the Khangchendzonga Biosphere Reserve, a UNESCO World Heritage Site. The Dzongu site is surrounded by the Tholung chu (river) on the northeastern side and the guardian deity Mount Khangchendzonga on the western side. </p>
+                                <p><span class="font-weight-bold">Climate: </span>Dzongu has a diverse range of eco-climactic zones, ranging from 800m to 4595m elevation.</p>
+                                <p><span class="font-weight-bold">Villages: </span>The word Dzongu means “a place with nine districts” derived from Bhutia Language. Lingthem-Lingdem GPU in upper Dzongu is the pilot village in this region under the KLCDI-India programme, with five wards inhabited by 186 households for a total population of 987. </p>
+                                <p><span class="text-dark">Culture: </span> The ancient tribe of Sikkim, the Lepchas, has been living in this area for centuries. The Lepcha community has a vibrant culture and vast traditional knowledge of the local biodiversity, including knowledge of medicinal plants.</p>
+                                <p><span class="text-dark">Highlights: </span> The Dzongu site features natural trails for peaceful and beautiful nature walks and hikes. In addition this site is well known for its age-old monasteries and religious and cultural festivals. Lingdem village features a turquoise lake formed by a recent landslide across a river as well as a hot spring. The annual Lingdem hotspring nature and culture tourism festival is a great way to experience the rich beauty and culture present in Dzongu.</p>
                             </div>
                             <div class="col-md-4">
                                 <div class="vehiculs-box">
                                     <div class="vehiculs-thumb">
-                                        <img src="img/sunset" alt=""/>
-                                        <span class="spn-status"> Lingthem Lingdem </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
+                                        <img src="img/lingdem-images/flowers_yellow.jpg" alt=""/>
+                                        <span class="spn-status"> Village name </span>
                                         <p class="car-info-smal">
-                                            10-day trek with views of <br>
-                                            snowy peaks<br>
-                                            Contact<br>
-                                            9801-0761
+                                            This is a description of the background image of Bandpani.
                                         </p>
                                     </div>
-                                    <h3><a href="inner-page.php" title="">Himalayan Trek</a></h3>
+                                    <h3>Bandapani</h3>
                                 </div><!-- prop Box -->
+                                <p><span class="font-weight-bold">Location: </span>Located along Bhutan border, the Bandapani site includes important elephant corridor in Dooars. Bandapani receives water from the Bhutan hills through the Dumchi river and other streams. Towards the eastern side there are two important markets: the Makrapara tea garden (India) and Gomtu (Bhutan) where people from both countries depend on each other for marketing and other purposes. </p>
+                                <p><span class="font-weight-bold">Climate: </span></p>
+                                <p><span class="font-weight-bold">Villages: </span>The Bandapani site is comprised of four villages: Ashram line, Garochira, Sukti and Waiba. Total population is 1615 with a total of 324 households.</p>
+                                <p><span class="text-dark">Culture: This site is inhabited by Nepali and Tribal groups,  including Adibasi communities.  Religions represented include Hinduism, Buddhism and Christianity.</span> </p>
+                                <p><span class="text-dark">Highlights: </span> </p>
                             </div>
                             <hr class="featurette-divider">
                         </div>
                     </div>
                 </div>
             </div>
-                        <div class="row">
-                <div class="col-md-12">
-                    <div class="vehiculs-sec">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/view2" alt=""/>
-                                        <span class="spn-status"> Ribdi & Bhareng </span>
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Take in the beauty of Singalila national <br>
-                                            park with a local guide.<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Singalila National Park Adventure</a></h3>
-      
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/cow" alt=""/>
-                                        <span class="spn-status"> Gorkhey & Samanden </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Discover local plants and animals <br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Biodiversity Tour</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/sunset" alt=""/>
-                                        <span class="spn-status"> Lingthem Lingdem </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            10-day trek with views of <br>
-                                            snowy peaks<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Himalayan Trek</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <hr class="featurette-divider">
-                        </div>
-                    </div>
-                </div>
-            </div>
-                        <div class="row">
-                <div class="col-md-12">
-                    <div class="vehiculs-sec">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/view2" alt=""/>
-                                        <span class="spn-status"> Ribdi & Bhareng </span>
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Take in the beauty of Singalila national <br>
-                                            park with a local guide.<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Singalila National Park Adventure</a></h3>
-      
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/cow" alt=""/>
-                                        <span class="spn-status"> Gorkhey & Samanden </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            Discover local plants and animals <br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Biodiversity Tour</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <div class="col-md-4">
-                                <div class="vehiculs-box">
-                                    <div class="vehiculs-thumb">
-                                        <img src="img/sunset" alt=""/>
-                                        <span class="spn-status"> Lingthem Lingdem </span>
-
-                                        <a class="proeprty-sh-more" href="inner-page.php">
-                                            <i class="fa fa-angle-right"> </i></a>
-                                        <p class="car-info-smal">
-                                            10-day trek with views of <br>
-                                            snowy peaks<br>
-                                            Contact<br>
-                                            9801-0761
-                                        </p>
-                                    </div>
-                                    <h3><a href="inner-page.php" title="">Himalayan Trek</a></h3>
-                                </div><!-- prop Box -->
-                            </div>
-                            <hr class="featurette-divider">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
         </div>
+
+    <hr class="featurette-divider">
+
 </div>
 
     
@@ -312,7 +190,7 @@
                             <ul>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Home</a>
                                 </li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> About</a></li>
+                                <li><a href="about.php" title=""><i class="fa fa-angle-right"></i> About</a></li>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i>
                                     Tourism Packages</a></li>
                                 <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i>
@@ -326,31 +204,29 @@
                     <div class="col-md-3 column">
                         <div class="links_widget widget">
                             <div class="heading1">
-                                <h2><span>Famous</span> Places</h2>
+                                <h2><span>KLCDI</span> Sites</h2>
                             </div><!-- heading -->
                             <ul>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Gurudongmar
-                                    Lake </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Silk Route
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Barsey-Singalila</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Bandapani
                                 </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Sandruptse
-                                    Namechi </a></li>
-                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Nathula
-                                </a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> Dzongu</a></li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-md-3 column">
-                        <div class="subscribe_widget widget">
+                        <div class="links_widget widget">
                             <div class="heading1">
-                                <h2><span>Subscribe</span> Now</h2>
+                                <h2><span>Organization</span> Info</h2>
                             </div><!-- heading -->
-                            <p>Get our news letter</p>
-                            <form>
-                                <label><input type="text" placeholder="TYPE YOUR EMAIL"/></label>
-                                <button type="submit" class="flat-btn"><i class="ti ti-email"></i></button>
-                            </form>
+                            <ul>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> GBPNIHESD</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> ICIMOD
+                                </a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> TMI India</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> MLAS</a></li>
+                                <li><a href="javascript:void(0);" title=""><i class="fa fa-angle-right"></i> HNAF</a></li>
+                            </ul>
                         </div>
                     </div>
 
@@ -362,8 +238,10 @@
                 <span>Copyright All Right Reserved 2017 <a href="#" title="">Website is developed under KLCDI-India programme</a></span>
                 <ul>
                     <li><a title="" href="javascript:void(0);">GBPNIHESD Logo </a></li>
-                    <li><a title="" href="javascript:void(0);">TMI-India Logo </a></li>
                     <li><a title="" href="javascript:void(0);">ICIMOD, Nepal Logo</a></li>
+                    <li><a title="" href="javascript:void(0);">TMI-India Logo </a></li>
+                    <li><a title="" href="javascript:void(0);">MLAS Logo </a></li>
+                    <li><a title="" href="javascript:void(0);">HNAF Logo </a></li>
                 </ul>
             </div>
         </div>
